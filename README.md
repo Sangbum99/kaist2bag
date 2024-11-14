@@ -17,7 +17,7 @@ find . -name 'urban28*.tar.gz' -execdir tar -xzvf '{}' \;
 3. Clone and build this repository
 ```
 cd src
-git clone https://github.com/irapkaist/irp_sen_msgs.git
+git clone https://github.com/RPM-Robotics-Lab/irp_sen_msg
 git clone https://github.com/tsyxyz/kaist2bag.git
 cd ..
 catkin build
