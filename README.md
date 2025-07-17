@@ -20,7 +20,7 @@ cd src
 git clone https://github.com/RPM-Robotics-Lab/irp_sen_msg
 git clone https://github.com/tsyxyz/kaist2bag.git
 cd ..
-catkin build
+catkin_make
 ```
 
 4. Edit the [config file](config/config.yaml) with path and desired topics
